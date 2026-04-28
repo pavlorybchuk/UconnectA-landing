@@ -1,3 +1,5 @@
+import imageUrl from './../assets/chat_image.png';
+
 export function HeroSection() {
   return `
     <section
@@ -70,7 +72,7 @@ export function HeroSection() {
           <div class="relative mx-auto lg:ml-auto w-full max-w-[320px] sm:max-w-[360px] lg:max-w-none">
             <div class="absolute inset-0 bg-gradient-to-tr from-brand-accent/20 to-brand-blue/20 rounded-[40px] transform rotate-3 blur-xl"></div>
             <div class="relative glass-panel rounded-[32px] p-2 shadow-2xl flex flex-col overflow-hidden border border-white/20">
-              <img src="./src/assets/chat_image.png" alt="Chat image" class="w-full rounded-[28px]">
+              <img src="${imageUrl}" alt="Chat image" class="w-full rounded-[28px]">
             </div>
           </div>
 
