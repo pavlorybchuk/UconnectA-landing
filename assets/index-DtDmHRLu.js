@@ -19,22 +19,7 @@
           <a href="#qr-concept" class="text-sm font-medium text-gray-300 hover:text-white transition-colors" contenteditable="false">QR-код</a>
         </nav>
 
-        <div class="hidden lg:flex items-center gap-4">
-          <a href="#" class="text-sm font-medium text-white hover:text-brand-accent transition-colors" contenteditable="false">Увійти</a>
-          <button
-            class="bg-brand-accent hover:bg-brand-accentHover text-white px-6 py-2.5 rounded-full text-sm font-semibold transition-all shadow-glow flex items-center gap-2"
-          >
-            <span contenteditable="false">Завантажити</span>
-          </button>
-        </div>
 
-        <div class="flex lg:hidden items-center gap-3">
-          <button
-            id="mobile-download-btn"
-            class="bg-brand-accent hover:bg-brand-accentHover text-white px-4 py-2 rounded-full text-sm font-semibold transition-all shadow-glow"
-          >
-            <span contenteditable="false">Завантажити</span>
-          </button>
           <button
             aria-label="Toggle menu"
             id="mobile-menu-btn"
@@ -44,7 +29,6 @@
             <span class="block w-5 h-0.5 bg-white rounded transition-all duration-300" id="ham-line-2"></span>
             <span class="block w-5 h-0.5 bg-white rounded transition-all duration-300 origin-center" id="ham-line-3"></span>
           </button>
-        </div>
       </div>
 
       <div
