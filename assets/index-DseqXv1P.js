@@ -62,7 +62,7 @@
           </div>
         </nav>
       </div>
-    </header>`}function r(){return`
+    </header>`}var r=`/UconnectA-landing/assets/chat_image-BFEre7lq.png`;function i(){return`
     <section
       id="hero"
       class="relative pt-28 pb-16 sm:pt-32 sm:pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-brand-dark min-h-screen flex items-center section-clickable"
@@ -133,13 +133,13 @@
           <div class="relative mx-auto lg:ml-auto w-full max-w-[320px] sm:max-w-[360px] lg:max-w-none">
             <div class="absolute inset-0 bg-gradient-to-tr from-brand-accent/20 to-brand-blue/20 rounded-[40px] transform rotate-3 blur-xl"></div>
             <div class="relative glass-panel rounded-[32px] p-2 shadow-2xl flex flex-col overflow-hidden border border-white/20">
-              <img src="./src/assets/chat_image.png" alt="Chat image" class="w-full rounded-[28px]">
+              <img src="${r}" alt="Chat image" class="w-full rounded-[28px]">
             </div>
           </div>
 
         </div>
       </div>
-    </section>`}function i(){return`
+    </section>`}function a(){return`
     <section
       id="how-it-works"
       class="py-16 sm:py-24 bg-brand-darker relative section-clickable"
@@ -192,7 +192,7 @@
           </div>
         </div>
       </div>
-    </section>`}function a(){return`
+    </section>`}function o(){return`
     <footer
       id="footer"
       class="bg-black pt-16 sm:pt-24 pb-10 sm:pb-12 border-t border-white/10 relative overflow-hidden section-clickable"
@@ -256,7 +256,7 @@
       </div>
     </footer>`}document.querySelector(`#app`).innerHTML=`
     ${n()}
-    ${r()}
     ${i()}
     ${a()}
-`,document.querySelector(`#header .hidden.lg\\:flex button`)?.addEventListener(`click`,t),document.querySelector(`#mobile-download-btn`)?.addEventListener(`click`,t),document.querySelector(`#download-btn`)?.addEventListener(`click`,t);var o=document.querySelector(`#mobile-menu-btn`),s=document.querySelector(`#mobile-nav`);o&&s&&(o.addEventListener(`click`,()=>{s.style.maxHeight!==`0px`&&s.style.maxHeight!==``?(s.style.maxHeight=`0px`,o.setAttribute(`aria-expanded`,`false`)):(s.style.maxHeight=s.scrollHeight+`px`,o.setAttribute(`aria-expanded`,`true`))}),s.querySelectorAll(`a`).forEach(e=>{e.addEventListener(`click`,()=>{s.style.maxHeight=`0px`,o.setAttribute(`aria-expanded`,`false`)})}));
+    ${o()}
+`,document.querySelector(`#header .hidden.lg\\:flex button`)?.addEventListener(`click`,t),document.querySelector(`#mobile-download-btn`)?.addEventListener(`click`,t),document.querySelector(`#download-btn`)?.addEventListener(`click`,t);var s=document.querySelector(`#mobile-menu-btn`),c=document.querySelector(`#mobile-nav`);s&&c&&(s.addEventListener(`click`,()=>{c.style.maxHeight!==`0px`&&c.style.maxHeight!==``?(c.style.maxHeight=`0px`,s.setAttribute(`aria-expanded`,`false`)):(c.style.maxHeight=c.scrollHeight+`px`,s.setAttribute(`aria-expanded`,`true`))}),c.querySelectorAll(`a`).forEach(e=>{e.addEventListener(`click`,()=>{c.style.maxHeight=`0px`,s.setAttribute(`aria-expanded`,`false`)})}));
